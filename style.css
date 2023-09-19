@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin-left:0px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(image/fundo.jpg) bottom no-repeat fixed;
+    background-size: cover;
+}
+
+section {
+    padding: 35px;
+    background-color: #ffffff54;
+    width: 350px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 2px 15px 20px rgba(61, 61, 61.4);
+}
+
+header img {
+    width: 140px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+}
+
+header h1 {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 15px;
+}
+
+main a {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+main a:hover {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0, 0.6);
+    transition: transform 0.3s, 0.5s;
+}
+
+main img {
+    width: 40px;
+    float: left;
+}
+
+footer {
+    transform: translateY(45px);
+}
